@@ -1,24 +1,39 @@
 Questionnaire: 
 
 1. What are javascript functions?
+It's a block of code that is defined under ine function name and can be called elsewhere.
 
 2. Explain call-back functions in your own words.
+It's a function that is called inside another function to complete the code.
 
 3. Why are javascript functions first-class citizens? (in your own words, please)
+The functions can be assigned to other variables or passed as an argument or can be returned by another function.
 
 4. Explain javascript Closures in your own words.
+It's when you have a function and the reference to its surrounding environment. 
 
 5. When/Why do you use the .then() method of a promise?
+When the promise runs successfully.
 
 6. When/Why do you use the .catch() method of a promise?
+When there is an error.
 
 7. What is the spread operator?
+It is used when all elements from an object or array need to be included in a list of some kind.
 
 
 8. What is the rest operator?
+It makes all remaining parameters to be placed within an array in functions.
 
 
 9. What is the difference between the rest operator and the spead operator?
+spread operator is used for objects and arrays, rest operator is used for functions as arguments
 
 
 10. What is Object and Array Destructuring in javascript?
+It's taking specific keys and values from arrays and objects.
+For example:
+array=[1,2,3]
+const [number1, number2] = array
+number1 is equal to 1
+number2 is equal to 2

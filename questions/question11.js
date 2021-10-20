@@ -17,5 +17,6 @@ var user = {
   },
  };
  
-
+const {favoriteThings:{food}} = user
 // Once you have grabbed the favorite foods. Descontrusct the food array to grab only the first 2 values.
+const [food1, food2]=food
